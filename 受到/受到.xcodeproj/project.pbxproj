@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		219F214D1CF8744100475348 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219F214C1CF8744100475348 /* AppDelegate.swift */; };
+		219F214F1CF8744100475348 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219F214E1CF8744100475348 /* ViewController.swift */; };
+		219F21521CF8744100475348 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219F21501CF8744100475348 /* Main.storyboard */; };
+		219F21541CF8744100475348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 219F21531CF8744100475348 /* Assets.xcassets */; };
+		219F21571CF8744100475348 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219F21551CF8744100475348 /* LaunchScreen.storyboard */; };
+		219F21621CF8744200475348 /* __Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219F21611CF8744200475348 /* __Tests.swift */; };
+		219F216D1CF8744200475348 /* __UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219F216C1CF8744200475348 /* __UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		219F215E1CF8744100475348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 219F21411CF8744100475348 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 219F21481CF8744100475348;
+			remoteInfo = "受到";
+		};
+		219F21691CF8744200475348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 219F21411CF8744100475348 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 219F21481CF8744100475348;
+			remoteInfo = "受到";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		219F21491CF8744100475348 /* 受到.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "受到.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		219F214C1CF8744100475348 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		219F214E1CF8744100475348 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		219F21511CF8744100475348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		219F21531CF8744100475348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		219F21561CF8744100475348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		219F21581CF8744100475348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		219F215D1CF8744100475348 /* 受到Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "受到Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		219F21611CF8744200475348 /* __Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __Tests.swift; sourceTree = "<group>"; };
+		219F21631CF8744200475348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		219F21681CF8744200475348 /* 受到UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "受到UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		219F216C1CF8744200475348 /* __UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __UITests.swift; sourceTree = "<group>"; };
+		219F216E1CF8744200475348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		219F21461CF8744100475348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219F215A1CF8744100475348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219F21651CF8744200475348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		219F21401CF8744100475348 = {
+			isa = PBXGroup;
+			children = (
+				219F214B1CF8744100475348 /* 受到 */,
+				219F21601CF8744100475348 /* 受到Tests */,
+				219F216B1CF8744200475348 /* 受到UITests */,
+				219F214A1CF8744100475348 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		219F214A1CF8744100475348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				219F21491CF8744100475348 /* 受到.app */,
+				219F215D1CF8744100475348 /* 受到Tests.xctest */,
+				219F21681CF8744200475348 /* 受到UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		219F214B1CF8744100475348 /* 受到 */ = {
+			isa = PBXGroup;
+			children = (
+				219F214C1CF8744100475348 /* AppDelegate.swift */,
+				219F214E1CF8744100475348 /* ViewController.swift */,
+				219F21501CF8744100475348 /* Main.storyboard */,
+				219F21531CF8744100475348 /* Assets.xcassets */,
+				219F21551CF8744100475348 /* LaunchScreen.storyboard */,
+				219F21581CF8744100475348 /* Info.plist */,
+			);
+			path = "受到";
+			sourceTree = "<group>";
+		};
+		219F21601CF8744100475348 /* 受到Tests */ = {
+			isa = PBXGroup;
+			children = (
+				219F21611CF8744200475348 /* __Tests.swift */,
+				219F21631CF8744200475348 /* Info.plist */,
+			);
+			path = "受到Tests";
+			sourceTree = "<group>";
+		};
+		219F216B1CF8744200475348 /* 受到UITests */ = {
+			isa = PBXGroup;
+			children = (
+				219F216C1CF8744200475348 /* __UITests.swift */,
+				219F216E1CF8744200475348 /* Info.plist */,
+			);
+			path = "受到UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		219F21481CF8744100475348 /* 受到 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219F21711CF8744200475348 /* Build configuration list for PBXNativeTarget "受到" */;
+			buildPhases = (
+				219F21451CF8744100475348 /* Sources */,
+				219F21461CF8744100475348 /* Frameworks */,
+				219F21471CF8744100475348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "受到";
+			productName = "受到";
+			productReference = 219F21491CF8744100475348 /* 受到.app */;
+			productType = "com.apple.product-type.application";
+		};
+		219F215C1CF8744100475348 /* 受到Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219F21741CF8744200475348 /* Build configuration list for PBXNativeTarget "受到Tests" */;
+			buildPhases = (
+				219F21591CF8744100475348 /* Sources */,
+				219F215A1CF8744100475348 /* Frameworks */,
+				219F215B1CF8744100475348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				219F215F1CF8744100475348 /* PBXTargetDependency */,
+			);
+			name = "受到Tests";
+			productName = "受到Tests";
+			productReference = 219F215D1CF8744100475348 /* 受到Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		219F21671CF8744200475348 /* 受到UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219F21771CF8744200475348 /* Build configuration list for PBXNativeTarget "受到UITests" */;
+			buildPhases = (
+				219F21641CF8744200475348 /* Sources */,
+				219F21651CF8744200475348 /* Frameworks */,
+				219F21661CF8744200475348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				219F216A1CF8744200475348 /* PBXTargetDependency */,
+			);
+			name = "受到UITests";
+			productName = "受到UITests";
+			productReference = 219F21681CF8744200475348 /* 受到UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		219F21411CF8744100475348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = potatoxx;
+				TargetAttributes = {
+					219F21481CF8744100475348 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					219F215C1CF8744100475348 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 219F21481CF8744100475348;
+					};
+					219F21671CF8744200475348 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 219F21481CF8744100475348;
+					};
+				};
+			};
+			buildConfigurationList = 219F21441CF8744100475348 /* Build configuration list for PBXProject "受到" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 219F21401CF8744100475348;
+			productRefGroup = 219F214A1CF8744100475348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				219F21481CF8744100475348 /* 受到 */,
+				219F215C1CF8744100475348 /* 受到Tests */,
+				219F21671CF8744200475348 /* 受到UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		219F21471CF8744100475348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219F21571CF8744100475348 /* LaunchScreen.storyboard in Resources */,
+				219F21541CF8744100475348 /* Assets.xcassets in Resources */,
+				219F21521CF8744100475348 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219F215B1CF8744100475348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219F21661CF8744200475348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		219F21451CF8744100475348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219F214F1CF8744100475348 /* ViewController.swift in Sources */,
+				219F214D1CF8744100475348 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219F21591CF8744100475348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219F21621CF8744200475348 /* __Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219F21641CF8744200475348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219F216D1CF8744200475348 /* __UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		219F215F1CF8744100475348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 219F21481CF8744100475348 /* 受到 */;
+			targetProxy = 219F215E1CF8744100475348 /* PBXContainerItemProxy */;
+		};
+		219F216A1CF8744200475348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 219F21481CF8744100475348 /* 受到 */;
+			targetProxy = 219F21691CF8744200475348 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		219F21501CF8744100475348 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219F21511CF8744100475348 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		219F21551CF8744100475348 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219F21561CF8744100475348 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		219F216F1CF8744200475348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		219F21701CF8744200475348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		219F21721CF8744200475348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "受到/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "potatoxx.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		219F21731CF8744200475348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "受到/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "potatoxx.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		219F21751CF8744200475348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "受到Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "potatoxx.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/受到.app/受到";
+			};
+			name = Debug;
+		};
+		219F21761CF8744200475348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "受到Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "potatoxx.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/受到.app/受到";
+			};
+			name = Release;
+		};
+		219F21781CF8744200475348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "受到UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "potatoxx.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "受到";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		219F21791CF8744200475348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "受到UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "potatoxx.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "受到";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		219F21441CF8744100475348 /* Build configuration list for PBXProject "受到" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219F216F1CF8744200475348 /* Debug */,
+				219F21701CF8744200475348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		219F21711CF8744200475348 /* Build configuration list for PBXNativeTarget "受到" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219F21721CF8744200475348 /* Debug */,
+				219F21731CF8744200475348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		219F21741CF8744200475348 /* Build configuration list for PBXNativeTarget "受到Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219F21751CF8744200475348 /* Debug */,
+				219F21761CF8744200475348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		219F21771CF8744200475348 /* Build configuration list for PBXNativeTarget "受到UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219F21781CF8744200475348 /* Debug */,
+				219F21791CF8744200475348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 219F21411CF8744100475348 /* Project object */;
+}
